@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $('button').click(function(e){
+  $('#new_comment_button').click(function(e){
     e.preventDefault();
-    displayCommentBox();
+    
   })
 })
