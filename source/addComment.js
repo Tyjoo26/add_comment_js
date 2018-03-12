@@ -1,3 +1,6 @@
 $(document).ready(function(){
-  // add your code here
+  $('button').click(function(e){
+    e.preventDefault();
+    displayCommentBox();
+  })
 })
